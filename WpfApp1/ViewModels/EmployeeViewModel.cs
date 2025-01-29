@@ -7,7 +7,7 @@ using WpfApp1.Models;
 
 namespace WpfApp1.ViewModels
 {
-    class EmployeeViewModel : IEmployeeViewModel
+    public class EmployeeViewModel : IEmployeeViewModel
     {
         private Employee _employee;
         public Employee Employee

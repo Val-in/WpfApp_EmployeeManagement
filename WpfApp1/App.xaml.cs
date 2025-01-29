@@ -26,7 +26,7 @@ namespace WpfApp1
             container.RegisterType<ILogger, Logger>();
             container.RegisterType<IEmployeeViewModel, EmployeeViewModel>();
             container.RegisterType<IEmployeesViewModel, EmployeesViewModel>();
-            //container.RegisterType<IEmployeeRepository, EmployeeRepository>();
+            container.RegisterType<IEmployeeRepository, EmployeeRepository>();
 
             container.Resolve<EmployeesView>().Show();
         }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp1.Models
 {
-    class Logger : ILogger
+    public class Logger : ILogger
     {
         private ReaderWriterLockSlim lock_ = new ReaderWriterLockSlim();
 

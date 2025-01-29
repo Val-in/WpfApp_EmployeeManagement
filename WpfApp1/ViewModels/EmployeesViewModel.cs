@@ -10,7 +10,7 @@ using WpfApp1.Models;
 
 namespace WpfApp1.ViewModels
 {
-    class EmployeesViewModel : INotifyPropertyChanged, IEmployeesViewModel
+    public class EmployeesViewModel : INotifyPropertyChanged, IEmployeesViewModel
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
